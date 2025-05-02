@@ -12,6 +12,16 @@ The implementations of these algorithms are derived from code included in the `G
 The algorithms make use of `DistributedArrays` and `IterativeHeaps.jl` to pass cache arrays to heaps and other storage vectors when running in parellel; this use of preallocation is a standard Julia practice that eliminates the need to assign new memory addresses and run garbage collection during iteration. The algorithms use asynchrnous data parallelization instead of multithreading by passing each source vertex to a unique computational core.
 
 
+### Installation Notes
+
+`GraphDistanceAlgorithms.jl` depends on the following packages from the RAND repository, which must be added in the following order:
+
+```
+Pkg.add(url = "https://github.com/RANDCorporation/IterativeHeaps.jl")
+```
+
+
+
 ## Use
 
 The algorithms operate on a AbstractGraph object (can be directed or undirected graph). In general, algorithms can be run either with or without preallocated arrays; if run without, they operate in the same way that standard implementations run (e.g., see ?dijkstra, ?dijkstra!, ?bellman_ford, or ?bellman_ford! for information on input arguments).
