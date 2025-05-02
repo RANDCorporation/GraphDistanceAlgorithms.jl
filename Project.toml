@@ -1,6 +1,6 @@
 name = "GraphDistanceAlgorithms"
 uuid = "3fdb58ca-69fc-4f8a-a371-f94284468b8f"
-authors = ["jsyme <jsyme.bus@gmail.com>"]
+authors = ["jsyme <jsyme@tec.mx>"]
 version = "0.1.0"
 
 [deps]
