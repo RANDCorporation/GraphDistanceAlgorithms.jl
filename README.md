@@ -110,28 +110,33 @@ The code only needs a Graph to work off of. This can be loaded in a Julia sessio
 
 ## Project information
 
-ADD HERE
+This package is [one of five](https://github.com/RANDCorporation/black-knights-and-dark-network) created during the research phase of a RAND project.
+
+In their report [_North Korea's Black Knights and Dark Network: Towards the Disruption and Typology of DPRK Sanctions Evasion Networks_ (RAND, RR-A3413-1)](https://www.rand.org/pubs/research_reports/RRA3413-1.html) researchers describe how they created a network representation of the DPRK sanctions-evasion system, comprising over 4,100 nodes and 6,500 links derived from UN Panel of Experts reports and the Center for Advanced Defense Studies (C4ADS) dataset. Together, the five code packages supported the team's ability to rank nodes and links, calculate priority scores, and compare the results to sanctioned entities, thus offering a rigorous, computationally driven approach to network disruption and target prioritization.
+
+See the [parent repository](https://github.com/RANDCorporation/black-knights-and-dark-network) for a full list and additional details.
 
 
 ## References/Bibliography
 
-Fairbanks, James and Besan{\c{c}}on, Mathieu and Simon, Sch{\"o}lly and Hoffiman, J{\'u}lio and Eubank, Nick and Karpinski, Stefan. 2021. _JuliaGraphs/Graphs.jl: an optimized graphs package for the Julia programming language_. https://github.com/JuliaGraphs/Graphs.jl/
-
+Fairbanks, J., Besançon, M., Simon, S., Hoffiman, J., Eubank, N., & Karpinski, S.. (2021). JuliaGraphs/Graphs.jl: an optimized graphs package for the Julia programming language. (https://github.com/JuliaGraphs/Graphs.jl/)
  
 
 ## Copyright and License
 
-Copyright (C) <2024> RAND Corporation. This code is made available under the MIT license.
+Copyright (C) <2025> RAND Corporation. This code is made available under the MIT license.
 
  
 
 ## Authors and Reference
 
-James Syme, 2024.
+James Syme, 2025.
 
-@misc{GDA2024,
+```
+@misc{GDA2025,
   author       = {Syme, James},
   title        = {GraphDistanceAlgorithms.jl: Graph shortest path algorithms for iteration.},
-  year         = 2024,
-  url = {URLHERE}
+  year         = {2025},
+  url = {https://github.com/RANDCorporation/GraphDistanceAlgorithms.jl}
 }
+```
