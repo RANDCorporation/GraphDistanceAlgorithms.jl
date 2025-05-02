@@ -7,9 +7,8 @@ authors:
     given-names: James
     family-names: Syme
     affiliation: RAND
-repository-code: >-
-  MISSING
-url: MISSING
+repository-code: "https://github.com/RANDCorporation/GraphDistanceAlgorithms.jl"
+url: "https://github.com/RANDCorporation/black-knights-and-dark-network"
 abstract: >-
   Implementation of Dijkstra's and Bellman Ford algorithms for use in 
   large-scale iteration with distributed arrays to reduce memory leaks and
