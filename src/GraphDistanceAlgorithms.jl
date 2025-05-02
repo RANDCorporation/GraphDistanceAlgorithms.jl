@@ -13,9 +13,7 @@ using DistributedArrays
 using Graphs
 using SharedArrays
 
-# custom modules TEMPORARY
-#using Pkg
-#Pkg.develop(path = "/Users/jsyme/Documents/Projects/git_jbus/IterativeHeaps.jl")
+# custom modules
 using IterativeHeaps
 
 
